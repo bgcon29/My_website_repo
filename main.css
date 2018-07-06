@@ -1,45 +1,39 @@
 name {
   font-size: 36px;
   font-weight: bold;
-  color: white;
-  text-decoration: underline;
   text-align: center;
+  text-decoration: underline;
+  color: white;
 }
 
-.header{
+.header {
+  width: 100%;
+  height: 60%;
   text-align: center;
-  background-image: url("DMwide.JPG");
-  background-size: auto 100%;
+  background-image: url('DMwide.JPG');
   background-repeat: no-repeat;
   background-position: center;
-  height: 85%;
-  width: 100%;
+  background-size: auto 100%;
 }
 
-headerWords {
+headerwords {
   font-size: 18px;
   font-weight: regular;
   color: white;
-
 }
 
-
-
-.body{
-
-}
-
-.center{
+.center {
   text-align: center;
 }
 
 hr {
-  padding: 0;
   margin-top: 0;
   margin-bottom: 10;
+  padding: 0;
 }
-ul{
-  display:inline-block;
+
+ul {
+  display: inline-block;
   margin-top: 5;
   margin-bottom: 10;
   list-style-position: inside;
@@ -50,13 +44,13 @@ titlesection {
   font-size: 24px;
   font-weight: bold;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
 
 h1 {
   font-size: 18px;
+  margin: 0;
   padding: 0;
-  margin:0;
   color: black;
 }
 
@@ -64,8 +58,8 @@ h2 {
   font-size: 15px;
   margin: 0;
   padding: 0;
-  color: grey;
-  color-weight: 100;
   padding-bottom: 0;
   text-indent: 5;
+  color: grey;
+  color-weight: 100;
 }
