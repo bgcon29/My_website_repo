@@ -1,28 +1,42 @@
 
-name {
-  font-size: 36px;
-  font-weight: bold;
-  text-align: center;
-  text-shadow: grey;
+name
+{
+    font-size: 36px;
+    font-weight: bold;
+
+    text-align: center;
+
+    text-shadow: grey;
+
+    background-image: url(../DMwide.JPG);
 }
-titleSection {
-  font-size: 18px;
-  font-weight: bold;
+titlesection
+{
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: rgb(237, 110, 28);
 }
 
-h1 {
-font-size: 16px;
-color: black;
-padding: 0;
-margin:0;
-margin-top: 10;
+h1
+{
+    font-size: 16px;
+
+    margin: 0;
+    margin-top: 10;
+    padding: 0;
+
+    color: black;
 }
 
-h2 {
-  font-size: 15px;
-  color: grey;
-  font-style: italic;
-  padding: 0;
-  margin:0;
-  color-weight: 100;
+h2
+{
+    font-size: 15px;
+    font-style: italic;
+
+    margin: 0;
+    padding: 0;
+
+    color: grey;
+
+    color-weight: 100;
 }
