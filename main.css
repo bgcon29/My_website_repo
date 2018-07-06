@@ -1,6 +1,7 @@
 name {
   font-size: 36px;
   font-weight: bold;
+  text-decoration: underline;
   text-align: center;
 }
 
@@ -9,8 +10,18 @@ headerWords {
   font-weight: regular;
 
 }
-.Center{
 
+.header{
+  text-align: center;
+  background-color: rgb(216, 218, 222);
+}
+
+.body{
+
+}
+
+.center{
+  text-align: center;
 }
 
 ul{
@@ -22,7 +33,9 @@ ul{
 titlesection {
   font-size: 18px;
   font-weight: bold;
-  text-decoration: underline;
+  margin: 0;
+  padding:0;
+  border-bottom: 2px solid black;
 }
 
 h1 {
