@@ -37,6 +37,7 @@ titleSection.center1 {
 .body{
   margin: auto;
   width: 75%;
+  text-align: center;
 }
 
 hr {
