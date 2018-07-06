@@ -1,5 +1,5 @@
 name {
-  font-size: 48px;
+  font-size: 40px;
   font-weight: bold;
   text-align: center;
   text-decoration: underline;
@@ -15,11 +15,10 @@ name {
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%;
-  outline: 5px solid black;
 }
 
 headerwords {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: regular;
   color: white;
 }
