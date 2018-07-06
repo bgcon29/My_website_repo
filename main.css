@@ -22,8 +22,13 @@ headerwords {
   color: white;
 }
 
-.center {
+titleSection.center1 {
   text-align: center;
+}
+
+.body{
+  margin: auto;
+  width: 75%;
 }
 
 hr {
