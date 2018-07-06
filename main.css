@@ -38,8 +38,7 @@ ul {
   display: inline-block;
   margin-top: 5;
   margin-bottom: 10;
-  list-style-position: inside;
-  text-align: center;
+  text-align: left;
 }
 
 titlesection {
@@ -61,7 +60,7 @@ h2 {
   margin: 0;
   padding: 0;
   padding-bottom: 0;
-  text-indent: 5;
+  text-indent: 15;
   color: grey;
   color-weight: 100;
 }
