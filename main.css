@@ -5,6 +5,7 @@ CSS file for website
 html {
   background-color: rgb(170, 170, 170);
   margin:0;
+  margin-bottom: 20;
 }
 
 a {
@@ -17,10 +18,10 @@ a:hover {
 
 .sidebar {
   position: fixed;
-  width: 90px;
-  height: 100;
+  width: 100%;
+  height: auto;
   margin: 0;
-  padding: middle;
+  padding: 0;
   text-align: center;
   vertical-align: middle;
   border: 2px solid black;
@@ -29,23 +30,24 @@ a:hover {
 
 span {
   line-height: 14px;
-  display: inline-block;
-  text-align: center;
+  display: inline-flex;
   vertical-align: middle;
 }
 
 main {
-  width: 90%;
   text-align: center;
+  margin-top: 20;
 }
 
 .sidebar a {
-  font-size: 10px;
-  line-height: 200%;
+  font-size: 16px;
+  line-height: 14px;
   padding: 10px;
   text-align: center;
   text-decoration: none;
   color: white;
+  left:0;
+  width:
 }
 
 .sidebar a:hover {
@@ -58,9 +60,8 @@ main {
   display: block;
   width: 100%;
   text-align: center;
-  background-color: black;
   positon: relative;
-  margin:-10;
+  margin-top: 50;
 }
 
 name {
@@ -90,10 +91,8 @@ headerwords {
 
 .image {
   display: block;
-  width: 95%;
   height: 60%;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   background-image: url('DMwide.JPG');
   background-repeat: no-repeat;
   background-position: center;
@@ -105,12 +104,8 @@ titlesection.center1 {
 }
 
 .body {
-  margin-left: 50px;
   text-align: center;
-}
-
-.main {
-
+  position:center;
 }
 
 hr {
@@ -161,15 +156,16 @@ h2 {
 }
 
 .footer {
-  display: block;
+  display: inline-block;
+  padding-top: 5;
+  padding-bottom: 10;
   width: 100%;
-  padding-bottom: 7;
+  margin-top: 20;
   text-align: center;
-  margin: -10;
-  margin-right: 30;
+  vertical-align: middle;
+  margin-bottom: -10;
   background-color: black;
   positon: fixed;
-
 }
 
 bottomtext {
