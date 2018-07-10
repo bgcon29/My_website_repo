@@ -49,6 +49,12 @@ name {
   text-shadow: 5px blue;
 }
 
+headerwords.image {
+  font-size: 18px;
+  font-weight: regular;
+  color: white;
+}
+
 .image {
   width: 95%;
   height: 60%;
@@ -62,11 +68,6 @@ name {
   margin-right: auto;
 }
 
-headerwords {
-  font-size: 18px;
-  font-weight: regular;
-  color: white;
-}
 
 titlesection.center1 {
   text-align: center;
