@@ -2,222 +2,175 @@
 CSS file for website
 */
 
-html
-{
-    background-color: rgb(170, 170, 170);
+html {
+  background-color: rgb(170, 170, 170);
 }
 
-a
-{
-    color: blue;
-}
-a:hover
-{
-    color: red;
+a {
+  color: blue;
 }
 
-.sidebar
-{
-    position: fixed;
-
-    width: 90px;
-    height: 100;
-    margin: 0;
-    padding: middle;
-
-    text-align: center;
-    vertical-align: middle;
-
-    border: 2px solid black;
-    background-color: rgb(89, 89, 89);
+a:hover {
+  color: red;
 }
 
-span
-{
-    line-height: 14px;
-
-    display: inline-block;
-
-    text-align: center;
-    vertical-align: middle;
+.sidebar {
+  position: fixed;
+  width: 90px;
+  height: 100;
+  margin: 0;
+  padding: middle;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid black;
+  background-color: rgb(89, 89, 89);
 }
 
-main
-{
-    width: 90%;
-
-    text-align: center;
+span {
+  line-height: 14px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.sidebar a
-{
-    font-size: 10px;
-    line-height: 200%;
-
-    padding: 10px;
-
-    text-align: center;
-    text-decoration: none;
-
-    color: white;
+main {
+  width: 90%;
+  text-align: center;
 }
 
-.sidebar a:hover
-{
-    text-decoration: underline;
-
-    color: black;
-    text-shadow: 5px blue;
+.sidebar a {
+  font-size: 10px;
+  line-height: 200%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }
 
-.name
-{
-    margin-top: 30px;
+.sidebar a:hover {
+  text-decoration: underline;
+  color: black;
+  text-shadow: 5px blue;
 }
 
-name
-{
-    font-family: Impact, Charcoal, sans-serif;
-    font-size: 48px;
-    font-weight: bold;
-
-    width: 75%;
-
-    text-align: center;
-
-    color: black;
+.name {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  positon: relative;
 }
 
-.header
-{
-    margin: auto;
-
-    text-align: center;
+name {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
 }
 
-.header a:hover
-{
-    text-decoration: underline;
-
-    color: black;
-    text-shadow: 5px blue;
+.header {
+  margin: auto;
+  text-align: center;
 }
 
-headerwords
-{
-    font-size: 18px;
-    font-weight: regular;
-
-    color: white;
+.header a:hover {
+  text-decoration: underline;
+  color: black;
+  text-shadow: 5px blue;
 }
 
-.image
-{
-    display: block;
-
-    width: 95%;
-    height: 60%;
-    margin-top: -50;
-    margin-right: auto;
-    margin-left: auto;
-
-    background-image: url('DMwide.JPG');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto 100%;
+headerwords {
+  font-size: 18px;
+  font-weight: regular;
+  color: white;
 }
 
-titlesection.center1
-{
-    text-align: center;
+.image {
+  display: block;
+  width: 95%;
+  height: 60%;
+  margin-top: -50;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url('DMwide.JPG');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
 }
 
-.body
-{
-    margin-left: 50px;
-
-    text-align: center;
+titlesection.center1 {
+  text-align: center;
 }
 
-hr
-{
-    width: 85%;
-    margin-top: 0;
-    margin-bottom: 10;
-    padding: 0;
+.body {
+  margin-left: 50px;
+  text-align: center;
 }
 
-ul
-{
-    display: inline-block;
+.main {
+margin-top: 50px;
+padding-top: 50px;
 
-    width: 60%;
-    margin-top: 5;
-    margin-bottom: 10;
-
-    text-align: left;
 }
 
-titlesection
-{
-    font-family: Impact, Charcoal, sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-
-    margin: 0;
-    padding: 0;
+hr {
+  width: 85%;
+  margin-top: 0;
+  margin-bottom: 10;
+  padding: 0;
 }
 
-h1
-{
-    font-size: 18px;
-
-    margin: 0;
-    padding: 0;
-
-    color: black;
+ul {
+  display: inline-block;
+  width: 60%;
+  margin-top: 5;
+  margin-bottom: 10;
+  text-align: left;
 }
 
-h2
-{
-    font-size: 15px;
-
-    margin: 0;
-    padding: 0;
-    padding-bottom: 0;
-
-    text-indent: 15;
-
-    color: rgb(85, 84, 84);
-
-    color-weight: 100;
+titlesection {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
-.center
-{
-    display: block;
-
-    width: 50%;
-    margin-right: auto;
-    margin-left: auto;
+h1 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: black;
 }
 
-.footer
-{
-    display: block;
-
-    width: 100%;
-    padding-bottom: 7;
-
-    text-align: center;
-
-    background-color: black;
-
-    positon: fixed;
+h2 {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0;
+  text-indent: 15;
+  color: rgb(85, 84, 84);
+  color-weight: 100;
 }
-bottomtext
-{
-    font-size: 10px;
 
-    color: white;
+.center {
+  display: block;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  padding-bottom: 7;
+  text-align: center;
+  background-color: black;
+  positon: fixed;
+}
+
+bottomtext {
+  font-size: 10px;
+  color: white;
 }
