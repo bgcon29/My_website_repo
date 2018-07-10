@@ -1,22 +1,40 @@
+/*
+CSS file for website
+*/
+
+html {
+  background-color: rgb(143, 143, 143);
+}
+
 .sidebar {
-  height: 100;
+  position: fixed;
   width: 100px;
-  position:fixed;
+  margin-top: 150;
+  height: 100;
   margin: 0;
   text-align: center;
-  background-color: grey;
+  vertical-align: middle;
+  background-color: black;
 }
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 14px;
+}
+
 main {
-  text-align: center;
   width: 90%;
+  text-align: center;
 }
+
 .sidebar a {
   font-size: 10px;
+  line-height: 200%;
   padding: 10px;
   text-align: center;
   text-decoration: none;
   color: white;
-  line-height: 200%;
 }
 
 .sidebar a:hover {
@@ -30,10 +48,10 @@ main {
 }
 
 name {
-  width: 75%;
   font-family: Impact, Charcoal, sans-serif;
   font-size: 40px;
   font-weight: bold;
+  width: 75%;
   text-align: center;
   color: black;
 }
@@ -49,25 +67,24 @@ name {
   text-shadow: 5px blue;
 }
 
-headerwords.image {
+headerwords {
   font-size: 18px;
   font-weight: regular;
   color: white;
 }
 
 .image {
+  display: block;
   width: 95%;
   height: 60%;
+  margin-top: -50;
+  margin-right: auto;
+  margin-left: auto;
   background-image: url('DMwide.JPG');
   background-repeat: no-repeat;
   background-position: center;
   background-size: auto 100%;
-  margin-top:-50;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
-
 
 titlesection.center1 {
   text-align: center;
@@ -79,10 +96,10 @@ titlesection.center1 {
 }
 
 hr {
+  width: 85%;
   margin-top: 0;
   margin-bottom: 10;
   padding: 0;
-  width:85%;
 }
 
 ul {
