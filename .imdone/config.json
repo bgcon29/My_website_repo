@@ -3,7 +3,7 @@
     "^(node_modules|bower_components|\\.imdone|target|build|dist|logs|flow-typed|imdone-export.json)[\\/\\\\]?|\\.(git|svn|hg|npmignore)|\\~$|\\.(jpg|png|gif|swp|ttf|otf)$"
   ],
   "watcher": true,
-  "keepEmptyPriority": false,
+  "keepEmptyPriority": true,
   "code": {
     "include_lists": [
       "TODO",
@@ -17,7 +17,8 @@
       "XXX",
       "IDEA",
       "NOTE",
-      "REVIEW"
+      "REVIEW",
+      "MARK"
     ]
   },
   "lists": [
@@ -37,14 +38,17 @@
     "pedantic": false,
     "smartLists": true,
     "langPrefix": "language-"
-  }
-}
-{
-  "boardURL":"https://trello.com/b/qgZA2sXv/personal-website",
-  "mapping": {
-    "BACKLOG": "backlog",
-    "TODO": "todo",
-    "DOING": "doing",
-    "DONE": "done"
+  },
+  "sync": {
+    "id": "5b442fcb2edf874bede066ad",
+    "name": "brendanconnelly2019/My_website_repo",
+    "useImdoneioForPriority": true
+  },
+  "meta": {
+    "gh": {
+      "urlTemplate": "https://github.com/brendanconnelly2019/My_website_repo/issues/%s",
+      "titleTemplate": "View github issue %s",
+      "icon": "icon-octoface"
+    }
   }
 }
