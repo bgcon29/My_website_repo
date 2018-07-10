@@ -4,6 +4,7 @@ CSS file for website
 
 html {
   background-color: rgb(170, 170, 170);
+  margin:0;
 }
 
 a {
@@ -59,6 +60,7 @@ main {
   text-align: center;
   background-color: black;
   positon: relative;
+  margin:-10;
 }
 
 name {
@@ -90,7 +92,6 @@ headerwords {
   display: block;
   width: 95%;
   height: 60%;
-  margin-top: -50;
   margin-right: auto;
   margin-left: auto;
   background-image: url('DMwide.JPG');
@@ -109,8 +110,6 @@ titlesection.center1 {
 }
 
 .main {
-margin-top: 50px;
-padding-top: 50px;
 
 }
 
@@ -166,8 +165,11 @@ h2 {
   width: 100%;
   padding-bottom: 7;
   text-align: center;
+  margin: -10;
+  margin-right: 30;
   background-color: black;
   positon: fixed;
+
 }
 
 bottomtext {
