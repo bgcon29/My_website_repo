@@ -6,11 +6,18 @@ html {
   background-color: rgb(170, 170, 170);
 }
 
+a{
+  color:blue;
+}
+a:hover {
+  color:red;
+}
+
 .sidebar {
   position: fixed;
   width: 90px;
-  margin-top: 150;
   height: 100;
+  padding: middle;
   margin: 0;
   text-align: center;
   vertical-align: middle;
@@ -133,7 +140,7 @@ h2 {
   padding: 0;
   padding-bottom: 0;
   text-indent: 15;
-  color: grey;
+  color: rgb(85, 84, 84);
   color-weight: 100;
 }
 
@@ -142,4 +149,17 @@ h2 {
   width: 50%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.footer {
+  background-color: black;
+  display: block;
+  positon: fixed;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 7;
+}
+bottomtext {
+  font-size: 10px;
+  color: white;
 }
