@@ -92,7 +92,7 @@ headerwords {
 .image {
   display: block;
   height: 60%;
-  margin: auto;
+  margin-top:-20;
   background-image: url('DMwide.JPG');
   background-repeat: no-repeat;
   background-position: center;
