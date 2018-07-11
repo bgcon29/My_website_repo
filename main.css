@@ -176,13 +176,13 @@ bottomtext {
 
 
 figure {
-  height:200;
-  width:200;
+  height:300;
+  width:300;
   text-align: center;
-  float:inherit;
+  margin:0 auto;
 }
 
 .charts {
-  display: inline-flex;
+  display: flex;
   text-align: center;
 }
