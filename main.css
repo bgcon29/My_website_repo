@@ -184,4 +184,5 @@ figure {
 
 .charts {
   display: inline-flex;
+  text-align: center;
 }
