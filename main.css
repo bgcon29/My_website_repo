@@ -4,7 +4,7 @@ CSS file for website
 
 html {
   background-color: rgb(170, 170, 170);
-  margin:0;
+  margin: 0;
   margin-bottom: 20;
 }
 
@@ -46,7 +46,7 @@ main {
   text-align: center;
   text-decoration: none;
   color: white;
-  left:0;
+  left: 0;
   width:
 }
 
@@ -92,7 +92,7 @@ headerwords {
 .image {
   display: block;
   height: 60%;
-  margin-top:-20;
+  margin-top: -20;
   background-image: url('DMwide.JPG');
   background-repeat: no-repeat;
   background-position: center;
@@ -105,7 +105,7 @@ titlesection.center1 {
 
 .body {
   text-align: center;
-  position:center;
+  position: center;
 }
 
 hr {
@@ -163,7 +163,7 @@ h2 {
   margin-top: 20;
   text-align: center;
   vertical-align: middle;
-  margin-bottom: -10;
+  margin-bottom: -40;
   background-color: black;
   positon: fixed;
 }
