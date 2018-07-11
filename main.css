@@ -183,5 +183,5 @@ figure {
 }
 
 .charts {
-  display: flex;
+  display: inline-flex;
 }
