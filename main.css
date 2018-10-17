@@ -5,6 +5,11 @@ CSS file for website
 html {
      background-color: rgb(170, 170, 170);
      margin: 0;
+
+}
+
+abouttext {
+     font-size: 18px;
 }
 
 a {
@@ -125,7 +130,7 @@ ul {
 
 titlesection {
      font-family: Impact, Charcoal, sans-serif;
-     font-size: 30px;
+     font-size: 40px;
      font-weight: bold;
      margin: 0;
      padding: 0;
