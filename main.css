@@ -194,3 +194,8 @@ figure {
      display: flex;
      text-align: center;
 }
+
+.bulletpoints {
+     width: 75%;
+     text-align: center;
+}
