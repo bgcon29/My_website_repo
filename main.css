@@ -113,15 +113,14 @@ contactwords {
      display: block;
      height: 75%;
      margin-top: -20;
-     background-image: url("Dashboard.png");
+     background-image: url("./DM Dashboard.png");
      background-repeat: no-repeat;
      background-position: center;
 
      background-size: auto 100%;
 }
 
-.examples {
-     }
+.examples {}
 
 titlesection.center1 {
      text-align: center;
