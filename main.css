@@ -214,7 +214,7 @@ figure {
 .bottomSection {}
 
 .contactForm {
-     float: right;
+     float: middle;
      margin-right: 50px;
 }
 
